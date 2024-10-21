@@ -13,12 +13,35 @@ body {
   background-color: #4d4d4d;
   position: relative;
 }
+.nav > .nav-header {
+  display: inline;
+}
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+.nav > .nav-btn {
+  display: none;
+}
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
 </style>
 
 <div class="nav">
     <input type="checkbox">
-    <div></div>
-    <div>
+    <div class="nav-header"></div>
+    <div class="nav-btn">
       <label>
         <span></span>
         <span></span>
@@ -26,7 +49,7 @@ body {
       </label>
     </div>
     
-    <div>
+    <div class="nav-links">
       <a href="#">Link 1</a>
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
