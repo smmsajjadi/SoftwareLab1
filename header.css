@@ -81,3 +81,9 @@ body {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+    font-size: 14px;
+}
