@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <style>
+    <style media="screen">
         * {
       box-sizing: border-box;
     }
@@ -95,6 +95,17 @@
         height: calc(100vh - 50px);
         overflow-y: auto;
       }
+        label{
+                display: block;
+                margin-top: 30px;
+        }
+        input{
+                display: block;
+                height: 50px;
+                width: 100%;
+                background-color: rgba(255,255,255,0.07);
+                margin-top: 8px; 
+        }
     </style>
     <head>
         <meta charset="UTF-8">
@@ -132,16 +143,15 @@
                     <span class="heading-primary-main">Heading Primary Main</span>
                     <span class="heading-primary-sub">The secondary heading</span>
                 </h1>
-                <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
             </div>
         </header>
-        <form>
+        <div class="login-box">
             <h3>Login Here</h3>
-            <label>Username</label>
+            <div class="label">Username</label>
             <input type="text">
-            <label>password</label>
+            <div class="label">password</label>
             <input type="password">
-            <button>Log in</button>
-        </form>
+            <a href="#" class="btn btn-white btn-animated">Log in</a>
+        </div>
     </body>
 </html>

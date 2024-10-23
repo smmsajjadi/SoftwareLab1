@@ -38,6 +38,27 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    color: #ffffff;
+}
+.label{
+    display: ;
+    margin-top: 30px;
+}
+.input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    margin-top: 8px;
+}
 
 .heading-primary {
     color: #fff;
@@ -66,10 +87,11 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 20px;
-    display: inline-block;
+    display: block;
     border-radius: 100px;
     transition: all .2s;
     position: relative;
+    margin-top: 50px;
 }
 
 .btn:hover {
